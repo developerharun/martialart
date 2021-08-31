@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1270px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.m-auto{
+    margin: auto;
+}
+/* Default CSS End*/
+.header{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.226);
+    z-index: 1;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+}
+.nav .logo{
+    width: 30%;
+    padding: 18px 0;
+}
+.menu{
+    width: 70%;
+    padding: 20px 0;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.menu ul li a{
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .5s;
+}
+.menu ul li:hover a{
+   background-color: #1a2f4e;
+   color: #fff;
+}
+.active{
+    background-color: #1a2f4e;
+    color: #fff !important;
+    border-radius: 30px;
+ }
+ /* Banner End */
+.banner{
+    background-color: #1f3354;
+    height: 100vh;
+}
+.banner-content{
+    width: 50%;
+    padding: 150px 0;
+}
+.banner-img{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+}
+.banner-img img{
+    width: 93%;
+}
+.banner-content h1.title{
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.banner-content h2{
+    color: #fff;
+    background-color: #b60d45;
+    font-size: 35px;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+.banner-content p{
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-content button{
+    border: none;
+    background-color: #e80040;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.banner-content button:hover{
+    background-color: #b60d45;
+    cursor: pointer;
+}
+/* banner end */
+.about{
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+}
+.about-content{
+    width: 50%;
+    padding-top: 80px;
+}
+.about-img{
+    width: 50%;
+    height: 100%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+    font-family: serif;
+}
+.about-content h1{
+    font-size: 35px;
+    color: #000;
+    font-family: serif;
+    margin: 10px 0;
+}
+.about-content h1 span{
+    color: #e80040;
+    font-family: serif;
+}
+.about-content b{
+    font-size: 18px;
+    line-height: 20px;
+    color: #838383;
+    font-family: serif;
+    font-weight: normal;
+    display: block;
+    margin-top: 10px;
+}
+.about-footer{
+    width: 100%;
+    margin-top: 50px;
+}
+.a-item{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.a-item span{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.a-item span i{
+    line-height: 80px;
+    font-size: 40px;
+    color: #e80040;
+}
+.a-item span:hover{
+    background-color: #ddd;
+}
+.a-content{
+    display: inline-block;
+    margin-left: 5px;
+}
+.a-item h5{
+    color: #e80040;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: serif;
+}
+.a-item p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/* About CSS end */
+.foot{
+    background-color: #e80040;
+}
+.foot h2{
+    color: #fff;
+    font-family: serif;
+    padding: 30px 50px;
+    display: inline-block;
+}
+.foot .btn-div{
+    display: inline-block;
+    margin-left: 380px;
+}
+.btn-div button{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* foot css end */
+.team{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+.title1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title1 h1{
+    font-size: 40px;
+    font-family: serif;
+}
+.title1 span{
+    color: #e80040;
+}
+.title1 p{
+    color: #838383;
+    font-size: 20px;
+    font-family: serif;
+    font-style: italic;
+}
+.t-member{
+    width: 31%;
+    height: auto;
+    margin-right: 3%;
+    display: inline-block;
+}
+.t-member:last-child{
+    margin-right: 0;
+}
+.t-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.img-inner{
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.t-member:hover .img-inner{
+    height: 80px;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+}
+/* team end */
+.logos{
+    width: 100%;
+    height: 100px;
+    background-color: #e80040;
+}
+.logo1{
+    width: 16%;
+    display: inline-block;
+    margin-right: 6px;
+}
+.logo1:last-child{
+    margin-right: 0;
+}
+/* logos end */
+.footer{
+    height: 40px;
+    background-color: #000;
+}
+.footer p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.social{
+    background-color: #fff;
+    width: 50px;
+    height: auto;
+    position: fixed;
+   right: 0;
+   top: 40%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   box-shadow: -2px 0 3px rgba(0, 0, 0, 0.253);
+}
+.social ul li{
+    display: block;
+}
+.social ul li a{
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #e80040;
+    transition: .5s;
+}
+.social ul li a:hover{
+    transform: scale(1.2);
+}
